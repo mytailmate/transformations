@@ -1,0 +1,252 @@
+{
+  "title": "Dog Walker",
+  "features": {
+    "id": "1",
+    "title": "Features",
+    "content": [
+      {
+        "id": 1,
+        "title": "Looking for perfect exercise for your pet?",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_1_bc221cc2c3.png",
+        "linkURL": null
+      },
+      {
+        "id": 2,
+        "title": "Embark your Pets's health journey now",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_2_c2cda7a1c3.png",
+        "linkURL": null
+      },
+      {
+        "id": 3,
+        "title": "Subscribe to Healthy walks for your pet with trusted & verified dog walker",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_3_4dec028ddc.png",
+        "linkURL": null
+      },
+      {
+        "id": 4,
+        "title": "Embedded with Live GPS Track Distance | Duration | Calorie Burned",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_4_41f37717d5.png",
+        "linkURL": null
+      },
+      {
+        "id": 5,
+        "title": "Monitoe Health & Wellness progress with inbuild dashboard",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_5_a196fa0403.png",
+        "linkURL": null
+      },
+      {
+        "id": 6,
+        "title": "Start your subscription now",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/mtm-assets/Slider_6_c1de3ca1c3.png",
+        "linkURL": null
+      }
+    ]
+  },
+  "packages": {
+    "id": 1,
+    "title": "Healthy Walks Subscription",
+    "content": "",
+    "currency": "₹",
+    "currencyCode": "INR",
+    "packages": [
+      {
+        "id": 1,
+        "isHidden": false,
+        "title": "WALK6 Dual MAX",
+        "slotPerDay": 2,
+        "description": [
+          {
+            "label": "Two walks in a day",
+            "icon": "StarOutlineIcon",
+            "type": "unique"
+          },
+          {
+            "label": "40 minute walk",
+            "icon": "QueryBuilderIcon",
+            "type": "unique"
+          },
+          {
+            "label": "6 days in a week",
+            "icon": "CalendarMonthIcon",
+            "type": "unique"
+          },
+          {
+            "label": "GPS Tracking",
+            "icon": "LocationOnIcon",
+            "type": "common"
+          },
+          {
+            "label": "Path Covered",
+            "icon": "RouteIcon",
+            "type": "common"
+          },
+          {
+            "label": "Track Distance | Duration | Calories Burned",
+            "icon": "AssignmentIcon",
+            "type": "common"
+          },
+          {
+            "label": "Health Activity Dashboard",
+            "icon": "StackedBarChartIcon",
+            "type": "common"
+          }
+        ],
+        "duration": 40,
+        "period": 30,
+        "daysInWeek": 6,
+        "mrpPer": "/month",
+        "mrp": 5500,
+        "offer": 5500,
+        "addPetText": "Add 1 more pet for 30% discount",
+        "extraPetFormula": "${a} - 0.3 * ${a}"
+      }
+    ]
+  },
+
+  "benefits": {
+    "id": "1",
+    "title": "Benefits",
+    "content": [
+      {
+        "id": 1,
+        "title": "Relieves your Dog's Stress & Anxiety",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819707/web-assets/benefits/Relives_your_Dog_s_Stress___Anxiety_jqkhg8.png",
+        "linkURL": null
+      },
+      {
+        "id": 2,
+        "title": "Improves Digestive Health",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819706/web-assets/benefits/Improves_digestive_health_dgaocs.png",
+        "linkURL": null
+      },
+      {
+        "id": 3,
+        "title": "Enhances Joint Health",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819707/web-assets/benefits/Enhances_Joint_Health_z9kemd.png",
+        "linkURL": null
+      },
+      {
+        "id": 4,
+        "title": "Improves Sleep Quality",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819707/web-assets/benefits/Improves_sleep_Quality_kmu6nd.png",
+        "linkURL": null
+      },
+      {
+        "id": 5,
+        "title": "Maintain Healthy Weight and Muscle Tone",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819708/web-assets/benefits/Maintain_healthy_weight_and_muscle_one_njtvun.png",
+        "linkURL": null
+      },
+      {
+        "id": 6,
+        "title": "Develop Social Skills",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819706/web-assets/benefits/Develop_social_skills_cmggrr.png",
+        "linkURL": null
+      },
+      {
+        "id": 7,
+        "title": "Improves Cardiovascular Health",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819706/web-assets/benefits/Improves_Cardiovascular_health_fccrqn.png",
+        "linkURL": null
+      },
+      {
+        "id": 8,
+        "title": "Positive Mental Stimulation and Mental Health",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819707/web-assets/benefits/Positive_mental_stimulation_and_mental_health_pfaoo2.png",
+        "linkURL": null
+      },
+      {
+        "id": 9,
+        "title": "Funtime and Exercise  Exploring New Environment",
+        "imgURL": "https://difmloaq2waof.cloudfront.net/dm4q3aiqs/image/upload/v1691819706/web-assets/benefits/Funtime_and_Exercise_Exploring_New_Environment_wivvu8.png",
+        "linkURL": null
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is MyTailMate Healthy walks Dog Walker Services subscription?",
+        "answer": "Dog Walker Services is a premium subscription-based program that offers professional dog walking services with added features like distance tracking, duration tracking, and calorie tracking for your beloved furry friend with inbuilt self walk and family sync feature along with live GPS tracking."
+      },
+      {
+        "id": 2,
+        "question": "How does the distance tracking feature work?",
+        "answer": "Our advanced app utilises GPS technology to track the distance covered during each dog walking session. You'll receive real-time updates on the route taken, distance travelled, and time spent walking."
+      },
+      {
+        "id": 3,
+        "question": "Can I see the health data of my dog post walks?",
+        "answer": "Yes, we have an inbuilt health activity dashboard for every pet profile in our app. All the activity data post walks such as distance covered, steps taken, calories burnt, Avg. pace/km is updated for each walk and can be easily tracked by pet parent to see the health and wellness progress of their dog."
+      },
+      {
+        "id": 4,
+        "question": "Can I share my pet’s health progress with other pet parents?",
+        "answer": "Yes, you can share and inspire your fellow pet parents by sharing the amazing progress your pets make by simply using the social sharing button in our app to share it across all the social media platforms."
+      },
+      {
+        "id": 5,
+        "question": "How is the distance information used?",
+        "answer": "Distance information helps you keep track of your dog's daily exercise routine. It ensures your dog receives the right amount of physical activity tailored to their needs."
+      },
+      {
+        "id": 6,
+        "question": "Can I track my dog walker's route?",
+        "answer": "Absolutely! Our app allows you to track the route of each walk, giving you peace of mind and a visual representation of where your dog has been."
+      },
+      {
+        "id": 7,
+        "question": "How is the calorie tracking feature beneficial?",
+        "answer": "Calorie tracking helps you monitor your dog's energy expenditure during walks. This feature assists in maintaining a healthy weight and promoting overall well-being."
+      },
+      {
+        "id": 8,
+        "question": "What if my dog has specific health requirements or limitations?",
+        "answer": "We take your dog's health seriously. During the subscription setup, you can provide any special instructions or health considerations. Our dog walkers are trained to adhere to these guidelines."
+      },
+      {
+        "id": 9,
+        "question": "How do I subscribe to MyTailMate Dog walker services?",
+        "answer": "Subscribing is easy! Visit our website or app, select the subscription plan that suits your needs, and provide the necessary information about your dog. Your subscription will then be activated."
+      },
+      {
+        "id": 10,
+        "question": "What subscription plans are available?",
+        "answer": "We offer a variety of subscription plans tailored to different needs. You can choose from monthly or quarterly plans to embark on the health journey of your furry friend."
+      },
+      {
+        "id": 11,
+        "question": "Can I change or cancel my subscription?",
+        "answer": "Of course. You can easily manage your subscription through your online account. You can raise the cancel request or pause request for your subscription from our app."
+      },
+      {
+        "id": 12,
+        "question": "Are the dog walkers experienced?",
+        "answer": "Yes, all our dog walkers are trained professionals with experience in handling various breeds and temperaments. Your dog's safety and well-being are our top priorities."
+      },
+      {
+        "id": 13,
+        "question": "Is the service available in my area?",
+        "answer": "Our service availability might vary by location. Enter your zip code on our website or app to check if we operate in your area."
+      },
+      {
+        "id": 14,
+        "question": "What safety measures are in place during walks?",
+        "answer": "We ensure the safety of your dog by using secure leashes, following traffic rules, and avoiding potentially harmful situations. Our walkers are also trained in pet first aid."
+      },
+      {
+        "id": 15,
+        "question": "Can I provide feedback about the service?",
+        "answer": "Absolutely, we value your feedback. You can provide ratings and reviews for each walk, helping us continuously improve our services."
+      },
+      {
+        "id": 16,
+        "question": "How do I get started?",
+        "answer": "To get started, simply visit our website or download our app, choose a subscription plan, and provide the necessary information. Your dog will be on its way to enjoying invigorating walks in no time!"
+      }
+    ]
+  },
+  "nextButtonText": "Proceed"
+}
