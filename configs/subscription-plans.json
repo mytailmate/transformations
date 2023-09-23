@@ -1,0 +1,620 @@
+{
+  "id": 1,
+  "title": "Subscription Plan",
+  "content": "",
+  "currency": "₹",
+  "currencyCode": "INR",
+  "packages": [
+    {
+      "id": "T0",
+      "isHidden": false,
+      "title": "Trial walk",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Trial pack for 1 day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Single walk in a day",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        }
+      ],
+      "duration": 40,
+      "period": 1,
+      "daysInWeek": 1,
+      "mrpPer": "/walk",
+      "mrp": 100,
+      "offer": 0,
+      "addPetText": "Add 1 more pet for no cost",
+      "extraPetFormula": "0"
+    },
+    {
+      "id": "TSM620",
+      "isHidden": false,
+      "title": "Tailmate Beginner",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 2800,
+      "offer": 2400,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM620",
+      "isHidden": false,
+      "title": "Tailmate Intermediate",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 4100,
+      "offer": 3800,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM640",
+      "isHidden": false,
+      "title": "Tailmate Advanced",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 3100,
+      "offer": 2800,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM640",
+      "isHidden": false,
+      "title": "Tailmate Pro",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT500 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 6000,
+      "offer": 5500,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM720",
+      "isHidden": true,
+      "title": "Walk7",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 2500,
+      "offer": 2500,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM720",
+      "isHidden": false,
+      "title": "Tailmate Intermediate +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 5000,
+      "offer": 4500,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM740",
+      "isHidden": true,
+      "title": "WALK7 MAX",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 3300,
+      "offer": 3300,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM740",
+      "isHidden": false,
+      "title": "Tailmate Pro +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 7000,
+      "offer": 6700,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDQ620",
+      "isHidden": false,
+      "title": "Tailmate Intermediate (Quarterly)",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT600 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 90,
+      "daysInWeek": 6,
+      "mrpPer": "/quarter",
+      "mrp": 12300,
+      "offer": 11400,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDQ640",
+      "isHidden": false,
+      "title": "Tailmate Pro (Quarterly)",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "GPS Tracking",
+          "icon": "LocationOnIcon",
+          "type": "common"
+        },
+        {
+          "label": "Path Covered",
+          "icon": "RouteIcon",
+          "type": "common"
+        },
+        {
+          "label": "Track Distance | Duration | Calories Burned",
+          "icon": "AssignmentIcon",
+          "type": "common"
+        },
+        {
+          "label": "Health Activity Dashboard",
+          "icon": "StackedBarChartIcon",
+          "type": "common"
+        },
+        {
+          "label": "OFFER: FLAT1500 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/quarter",
+      "mrp": 18000,
+      "offer": 16500,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    }
+  ]
+}
