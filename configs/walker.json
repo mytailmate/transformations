@@ -1,0 +1,116 @@
+{
+  "slots": {
+    "morning": [
+      "slot_5:00am",
+      "slot_5:30am",
+      "slot_6:00am",
+      "slot_6:30am",
+      "slot_7:00am",
+      "slot_7:30am",
+      "slot_8:00am",
+      "slot_8:30am",
+      "slot_9:00am",
+      "slot_9:30am",
+      "slot_10:00am",
+      "slot_10:30am",
+      "slot_11:00am",
+      "slot_11:30am"
+    ],
+    "evening": [
+      "slot_12:00pm",
+      "slot_12:30pm",
+      "slot_1:00pm",
+      "slot_1:30pm",
+      "slot_2:00pm",
+      "slot_2:30pm",
+      "slot_3:00pm",
+      "slot_3:30pm",
+      "slot_4:00pm",
+      "slot_4:30pm",
+      "slot_5:00pm",
+      "slot_5:30pm",
+      "slot_6:00pm",
+      "slot_6:30pm",
+      "slot_7:00pm",
+      "slot_7:30pm",
+      "slot_8:00pm",
+      "slot_8:30pm",
+      "slot_9:00pm",
+      "slot_9:30pm",
+      "slot_10:00pm",
+      "slot_10:30pm",
+      "slot_11:00pm",
+      "slot_11:30pm"
+    ]
+  },
+  "support": {
+    "APPLY_LEAVE": {
+      "waitTimeInMin": 60,
+      "data": [
+        {
+          "subject": "Apply Leave",
+          "label": "Apply leave",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        }
+      ]
+    },
+    "CHANGE_SLOT": {
+      "waitTimeInMin": 60,
+      "data": [
+        {
+          "subject": "Change Slot",
+          "label": "Change Slot",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        }
+      ]
+    },
+    "CONTACT_CUSTOMER": {
+      "waitTimeInMin": 60,
+      "data": [
+        {
+          "subject": "Contact Customer",
+          "label": "Contact Customer",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        }
+      ]
+    },
+    "ANY_QUERY": {
+      "waitTimeInMin": 60,
+      "data": [
+        {
+          "subject": "Unavailable",
+          "label": "Not Available for walk",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        },
+        {
+          "subject": "App not working",
+          "label": "App not working correctly",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        },
+        {
+          "subject": "Payment status",
+          "label": "Payment credit status",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        },
+        {
+          "subject": "Customer address issue",
+          "label": "Customer address issue",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        },
+        {
+          "subject": "Other",
+          "label": "Any other issue",
+          "success": "Your issue is successfully logged",
+          "error": "Please try again"
+        }
+      ]
+    }
+  }
+}

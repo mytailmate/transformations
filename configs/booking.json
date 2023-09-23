@@ -1,0 +1,73 @@
+{
+  "title": "Booking",
+  "startDateText": "Start Date",
+  "nextButtonText": "Proceed",
+  "currencyCode": "INR",
+  "currency": "₹",
+  "bookingSteps": ["Book Slot", "Contact Details", "Payment"],
+  "slots": {
+    "morning": {
+      "title": "Morning",
+      "type": "morning",
+      "slots": ["6:00", "6:30", "7:00", "7:30", "8:00", "8:30", "9:00", "9:30"]
+    },
+    "evening": {
+      "id": 2,
+      "title": "Evening",
+      "type": "evening",
+      "slots": [
+        "4:00",
+        "4:30",
+        "5:00",
+        "5:30",
+        "6:00",
+        "6:30",
+        "7:00",
+        "7:30",
+        "8:00",
+        "8:30"
+      ]
+    }
+  },
+  "minServiceLeadTime": {
+    "MTMD1": "5:00",
+    "MTM1": "5:00",
+    "MTM2": "5:00",
+    "MTM3": "5:00",
+    "MTM4": "5:00",
+    "MTM5": "5:00",
+    "MTM6": "5:00",
+    "MTM7": "5:00",
+    "default": "15:00"
+  },
+  "workingHoursIn24Format": {
+    "Monday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Tuesday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Wednesday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Thursday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Friday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Saturday": {
+      "start": "6:00",
+      "end": "20:30"
+    },
+    "Sunday": {
+      "start": "6:00",
+      "end": "20:30"
+    }
+  }
+}
