@@ -25,26 +25,6 @@
           "label": "40 minute walk",
           "icon": "QueryBuilderIcon",
           "type": "unique"
-        },
-        {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
         }
       ],
       "duration": 40,
@@ -78,26 +58,6 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
           "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
@@ -107,8 +67,8 @@
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/month",
-      "mrp": 2800,
-      "offer": 2400,
+      "mrp": 2900,
+      "offer": 2600,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -134,26 +94,6 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
           "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
@@ -163,8 +103,44 @@
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/month",
-      "mrp": 4100,
-      "offer": 3800,
+      "mrp": 4300,
+      "offer": 4100,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM720",
+      "isHidden": false,
+      "title": "Tailmate Intermediate +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 5000,
+      "offer": 4700,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -190,27 +166,7 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
-          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -219,8 +175,8 @@
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/month",
-      "mrp": 3100,
-      "offer": 2800,
+      "mrp": 3300,
+      "offer": 3100,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -266,7 +222,7 @@
           "type": "common"
         },
         {
-          "label": "OFFER: FLAT500 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -276,14 +232,14 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 6000,
-      "offer": 5500,
+      "offer": 5750,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
       "id": "TSM720",
       "isHidden": true,
-      "title": "Walk7",
+      "title": "Tailmate Beginner +",
       "slotPerDay": 1,
       "description": [
         {
@@ -302,26 +258,6 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
           "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
@@ -337,65 +273,9 @@
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
-      "id": "TDM720",
-      "isHidden": false,
-      "title": "Tailmate Intermediate +",
-      "slotPerDay": 2,
-      "description": [
-        {
-          "label": "Two walks in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "20 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "All days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 20,
-      "period": 30,
-      "daysInWeek": 7,
-      "mrpPer": "/month",
-      "mrp": 5000,
-      "offer": 4500,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
       "id": "TSM740",
       "isHidden": true,
-      "title": "WALK7 MAX",
+      "title": "Tailmate Advanced +",
       "slotPerDay": 1,
       "description": [
         {
@@ -414,27 +294,7 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
-          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -470,26 +330,6 @@
           "type": "unique"
         },
         {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
-        },
-        {
           "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
@@ -500,7 +340,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 7000,
-      "offer": 6700,
+      "offer": 6800,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -524,26 +364,6 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
         },
         {
           "label": "OFFER: FLAT600 OFF COUPON ON CHECKOUT",
@@ -580,26 +400,6 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "GPS Tracking",
-          "icon": "LocationOnIcon",
-          "type": "common"
-        },
-        {
-          "label": "Path Covered",
-          "icon": "RouteIcon",
-          "type": "common"
-        },
-        {
-          "label": "Track Distance | Duration | Calories Burned",
-          "icon": "AssignmentIcon",
-          "type": "common"
-        },
-        {
-          "label": "Health Activity Dashboard",
-          "icon": "StackedBarChartIcon",
-          "type": "common"
         },
         {
           "label": "OFFER: FLAT1500 OFF COUPON ON CHECKOUT",

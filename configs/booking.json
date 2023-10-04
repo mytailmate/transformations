@@ -69,5 +69,9 @@
       "start": "6:00",
       "end": "20:30"
     }
+  },
+  "skipBooking": {
+    "morning": [],
+    "evening": []
   }
 }
