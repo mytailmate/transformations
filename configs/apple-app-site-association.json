@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["6445865901.com.mytailmate.app"],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any URL with a path that starts with /."
+          }
+        ]
+      }
+    ]
+  }
+}
