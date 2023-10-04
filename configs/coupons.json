@@ -1,28 +1,12 @@
 {
   "coupons": [
     {
-      "title": "Flat 1500 off",
-      "description": "Applicable for first purchase of quarterly plan",
-      "content": "Flat 1500 off on your purchase",
-      "formula": "${a}-1500",
-      "code": "Flat1500",
-      "onlyFor": ["TDQ640"]
-    },
-    {
-      "title": "Flat 600 off",
-      "description": "Applicable for first purchase of quarterly plan",
-      "content": "Flat 600 off on your purchase",
-      "formula": "${a}-600",
-      "code": "Flat600",
-      "onlyFor": ["TDQ620"]
-    },
-    {
       "title": "Flat 250 off",
       "description": "Applicable for first purchase",
       "content": "Flat 250 off on your purchase",
       "formula": "${a}-250",
       "code": "Flat250",
-      "onlyFor": ["TDM640", "TDM740"]
+      "onlyFor": ["TDQ640", "TDQ740"]
     },
     {
       "title": "Flat 200 off",
@@ -30,7 +14,15 @@
       "content": "Flat 200 off on your purchase",
       "formula": "${a}-200",
       "code": "Flat200",
-      "onlyFor": ["TDM620"]
+      "onlyFor": ["TDM640", "TDM740"]
+    },
+    {
+      "title": "Flat 150 off",
+      "description": "Applicable for first purchase",
+      "content": "Flat 150 off on your purchase",
+      "formula": "${a}-150",
+      "code": "Flat150",
+      "onlyFor": ["TDQ620", "TDQ720", "TSQ640"]
     },
     {
       "title": "Flat 100 off",
@@ -38,7 +30,7 @@
       "content": "Flat 100 off on your purchase",
       "formula": "${a}-100",
       "code": "Flat100",
-      "onlyFor": ["TSM620", "TDM720", "TSM640"]
+      "onlyFor": ["TSM620", "TDM620", "TDM720", "TSM640"]
     }
   ]
 }
