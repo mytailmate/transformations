@@ -71,7 +71,7 @@
     }
   },
   "skipBooking": {
-    "morning": [],
-    "evening": []
+    "morning": ["Sunday"],
+    "evening": ["Sunday"]
   }
 }
