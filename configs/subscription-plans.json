@@ -485,7 +485,7 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         },
