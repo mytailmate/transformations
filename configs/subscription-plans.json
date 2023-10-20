@@ -254,7 +254,7 @@
     },
     {
       "id": "TSM740",
-      "isHidden": true,
+      "isHidden": false,
       "title": "Tailmate Advanced +",
       "slotPerDay": 1,
       "description": [
@@ -283,8 +283,8 @@
       "period": 30,
       "daysInWeek": 7,
       "mrpPer": "/month",
-      "mrp": 3300,
-      "offer": 3300,
+      "mrp": 4100,
+      "offer": 3900,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },

@@ -30,7 +30,7 @@
       "content": "Flat 100 off on your purchase",
       "formula": "${a}-100",
       "code": "Flat100",
-      "onlyFor": ["TSM620", "TDM620", "TDM720", "TSM640"]
+      "onlyFor": ["TSM620", "TDM620", "TDM720", "TSM640", "TSM740"]
     }
   ]
 }
