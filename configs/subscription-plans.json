@@ -68,7 +68,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 2900,
-      "offer": 2600,
+      "offer": 2599,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -104,7 +104,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 4300,
-      "offer": 4100,
+      "offer": 4099,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -140,7 +140,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 5000,
-      "offer": 4700,
+      "offer": 4699,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -176,7 +176,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 3300,
-      "offer": 3100,
+      "offer": 3099,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -212,7 +212,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 6000,
-      "offer": 5750,
+      "offer": 5749,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -284,7 +284,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 4100,
-      "offer": 3900,
+      "offer": 3899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -320,7 +320,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 7000,
-      "offer": 6800,
+      "offer": 6799,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -356,7 +356,7 @@
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 12900,
-      "offer": 11900,
+      "offer": 11899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -392,7 +392,7 @@
       "daysInWeek": 7,
       "mrpPer": "/quarter",
       "mrp": 15000,
-      "offer": 13900,
+      "offer": 13899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -428,7 +428,7 @@
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 9900,
-      "offer": 9150,
+      "offer": 9149,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -464,7 +464,7 @@
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 18000,
-      "offer": 16800,
+      "offer": 16799,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -500,7 +500,7 @@
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 21000,
-      "offer": 19800,
+      "offer": 19799,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     }
