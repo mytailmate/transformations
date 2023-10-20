@@ -73,6 +73,42 @@
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
+      "id": "TSM720",
+      "isHidden": true,
+      "title": "Tailmate Beginner +",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 2500,
+      "offer": 2500,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
       "id": "TDM620",
       "isHidden": false,
       "title": "Tailmate Intermediate",
@@ -181,78 +217,6 @@
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
-      "id": "TDM640",
-      "isHidden": false,
-      "title": "Tailmate Pro",
-      "slotPerDay": 2,
-      "description": [
-        {
-          "label": "Two walks in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "40 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "6 days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 40,
-      "period": 30,
-      "daysInWeek": 6,
-      "mrpPer": "/month",
-      "mrp": 6000,
-      "offer": 5749,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
-      "id": "TSM720",
-      "isHidden": true,
-      "title": "Tailmate Beginner +",
-      "slotPerDay": 1,
-      "description": [
-        {
-          "label": "Single walk in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "20 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "All days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 20,
-      "period": 30,
-      "daysInWeek": 7,
-      "mrpPer": "/month",
-      "mrp": 2500,
-      "offer": 2500,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
       "id": "TSM740",
       "isHidden": false,
       "title": "Tailmate Advanced +",
@@ -285,6 +249,42 @@
       "mrpPer": "/month",
       "mrp": 4100,
       "offer": 3899,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM640",
+      "isHidden": false,
+      "title": "Tailmate Pro",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 6000,
+      "offer": 5749,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
