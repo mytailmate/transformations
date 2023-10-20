@@ -433,6 +433,42 @@
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
+      "id": "TSQ740",
+      "isHidden": false,
+      "title": "Tailmate Advanced+ (Quarterly)",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "OFFER: FLAT150 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 40,
+      "period": 90,
+      "daysInWeek": 6,
+      "mrpPer": "/quarter",
+      "mrp": 12300,
+      "offer": 11299,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
       "id": "TDQ640",
       "isHidden": false,
       "title": "Tailmate Pro (Quarterly)",

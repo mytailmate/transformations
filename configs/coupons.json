@@ -22,7 +22,7 @@
       "content": "Flat 150 off on your purchase",
       "formula": "${a}-150",
       "code": "Flat150",
-      "onlyFor": ["TDQ620", "TDQ720", "TSQ640"]
+      "onlyFor": ["TDQ620", "TDQ720", "TSQ640", "TSQ740"]
     },
     {
       "title": "Flat 100 off",
