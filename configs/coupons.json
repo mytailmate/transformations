@@ -1,52 +1,36 @@
 {
   "coupons": [
     {
-      "title": "Dushhera Offer 350 off",
+      "title": "FLAT Offer 350 off",
       "description": "Applicable for first purchase",
       "content": "Flat 350 off on your purchase",
       "formula": "${a}-350",
-      "code": "DUSHHERA350",
+      "code": "FLAT350",
       "onlyFor": ["TDQ640", "TDQ740"]
     },
     {
-      "title": "Dushhera Offer 300 off",
+      "title": "FLAT Offer 300 off",
       "description": "Applicable for first purchase",
       "content": "Flat 300 off on your purchase",
       "formula": "${a}-300",
-      "code": "DUSHHERA300",
+      "code": "FLAT300",
       "onlyFor": ["TDM720", "TDM640", "TDM740"]
     },
     {
-      "title": "Dushhera Offer 250 off",
+      "title": "FLAT Offer 250 off",
       "description": "Applicable for first purchase",
       "content": "Flat 250 off on your purchase",
       "formula": "${a}-250",
-      "code": "DUSHHERA250",
+      "code": "FLAT250",
       "onlyFor": ["TDQ620", "TDQ720", "TSQ640", "TSQ740"]
     },
     {
-      "title": "Dushhera Offer 200 off",
+      "title": "FLAT Offer 200 off",
       "description": "Applicable for first purchase",
       "content": "Flat 200 off on your purchase",
       "formula": "${a}-200",
-      "code": "DUSHHERA200",
+      "code": "FLAT200",
       "onlyFor": ["TSM620", "TDM620", "TSM640", "TSM740"]
-    },
-    {
-      "title": "Flat 250 off",
-      "description": "Applicable for first purchase",
-      "content": "Flat 250 off on your purchase",
-      "formula": "${a}-250",
-      "code": "Flat250",
-      "onlyFor": ["TDQ640", "TDQ740"]
-    },
-    {
-      "title": "Flat 200 off",
-      "description": "Applicable for first purchase",
-      "content": "Flat 200 off on your purchase",
-      "formula": "${a}-200",
-      "code": "Flat200",
-      "onlyFor": ["TDM640", "TDM740"]
     },
     {
       "title": "Flat 150 off",
