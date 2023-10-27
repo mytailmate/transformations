@@ -48,5 +48,15 @@
       "code": "Flat100",
       "onlyFor": ["TSM620", "TDM620", "TDM720", "TSM640", "TSM740"]
     }
+  ],
+  "custom": [
+    {
+      "title": "New Order 1000 off",
+      "description": "Applicable for first purchase",
+      "content": "Flat 1000 off on your purchase",
+      "formula": "${a}-1000",
+      "code": "NEW1000",
+      "onlyFor": []
+    }
   ]
 }
