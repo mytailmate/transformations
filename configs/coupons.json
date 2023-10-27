@@ -55,7 +55,7 @@
       "description": "Applicable for first purchase",
       "content": "Flat 1000 off on your purchase",
       "formula": "${a}-1000",
-      "code": "NEW1000",
+      "code": "WW1000",
       "onlyFor": []
     }
   ]
