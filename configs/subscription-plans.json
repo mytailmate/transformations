@@ -58,7 +58,7 @@
           "type": "unique"
         },
         {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -130,7 +130,7 @@
           "type": "unique"
         },
         {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -140,7 +140,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 4300,
-      "offer": 4099,
+      "offer": 3899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -166,7 +166,7 @@
           "type": "unique"
         },
         {
-          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT400 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -176,7 +176,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 5000,
-      "offer": 4699,
+      "offer": 4599,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -202,7 +202,7 @@
           "type": "unique"
         },
         {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT400 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -212,7 +212,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 3300,
-      "offer": 3099,
+      "offer": 2999,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -274,7 +274,7 @@
           "type": "unique"
         },
         {
-          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
+          "label": "OFFER: FLAT500 OFF COUPON ON CHECKOUT",
           "icon": "LocalOfferIcon",
           "type": "unique"
         }
@@ -284,7 +284,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 6000,
-      "offer": 5749,
+      "offer": 5449,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -320,7 +320,7 @@
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 7000,
-      "offer": 6799,
+      "offer": 6699,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
