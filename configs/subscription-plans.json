@@ -56,163 +56,18 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-300",
+        "code": "FLAT300"
+      },
       "duration": 20,
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 2900,
-      "offer": 2600,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
-      "id": "TDM620",
-      "isHidden": false,
-      "title": "Tailmate Intermediate",
-      "slotPerDay": 2,
-      "description": [
-        {
-          "label": "Two walks in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "20 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "6 days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 20,
-      "period": 30,
-      "daysInWeek": 6,
-      "mrpPer": "/month",
-      "mrp": 4300,
-      "offer": 4100,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
-      "id": "TDM720",
-      "isHidden": false,
-      "title": "Tailmate Intermediate +",
-      "slotPerDay": 2,
-      "description": [
-        {
-          "label": "Two walks in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "20 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "All days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 20,
-      "period": 30,
-      "daysInWeek": 7,
-      "mrpPer": "/month",
-      "mrp": 5000,
-      "offer": 4700,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
-      "id": "TSM640",
-      "isHidden": false,
-      "title": "Tailmate Advanced",
-      "slotPerDay": 1,
-      "description": [
-        {
-          "label": "Single walk in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "40 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "6 days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 40,
-      "period": 30,
-      "daysInWeek": 6,
-      "mrpPer": "/month",
-      "mrp": 3300,
-      "offer": 3100,
-      "addPetText": "Add 1 more pet for 30% discount",
-      "extraPetFormula": "${a} - 0.3 * ${a}"
-    },
-    {
-      "id": "TDM640",
-      "isHidden": false,
-      "title": "Tailmate Pro",
-      "slotPerDay": 2,
-      "description": [
-        {
-          "label": "Two walks in a day",
-          "icon": "StarOutlineIcon",
-          "type": "unique"
-        },
-        {
-          "label": "40 minute walk",
-          "icon": "QueryBuilderIcon",
-          "type": "unique"
-        },
-        {
-          "label": "6 days in a week",
-          "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
-        }
-      ],
-      "duration": 40,
-      "period": 30,
-      "daysInWeek": 6,
-      "mrpPer": "/month",
-      "mrp": 6000,
-      "offer": 5750,
+      "offer": 2599,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -236,13 +91,12 @@
           "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-100",
+        "code": "FLAT100"
+      },
       "duration": 20,
       "period": 30,
       "daysInWeek": 7,
@@ -253,8 +107,113 @@
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
-      "id": "TSM740",
+      "id": "TSM630",
       "isHidden": true,
+      "title": "Tailmate Beginner 30",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-400",
+        "code": "FLAT400"
+      },
+      "duration": 30,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 3300,
+      "offer": 1999,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM730",
+      "isHidden": true,
+      "title": "Tailmate Beginner 30 +",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-450",
+        "code": "FLAT450"
+      },
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 4100,
+      "offer": 2249,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM640",
+      "isHidden": false,
+      "title": "Tailmate Advanced",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-400",
+        "code": "FLAT400"
+      },
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 3300,
+      "offer": 2999,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSM740",
+      "isHidden": false,
       "title": "Tailmate Advanced +",
       "slotPerDay": 1,
       "description": [
@@ -272,19 +231,193 @@
           "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT100 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-200",
+        "code": "FLAT200"
+      },
       "duration": 40,
       "period": 30,
       "daysInWeek": 7,
       "mrpPer": "/month",
-      "mrp": 3300,
-      "offer": 3300,
+      "mrp": 4100,
+      "offer": 3899,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM620",
+      "isHidden": false,
+      "title": "Tailmate Intermediate",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-300",
+        "code": "FLAT300"
+      },
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 4300,
+      "offer": 3899,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM720",
+      "isHidden": false,
+      "title": "Tailmate Intermediate +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-400",
+        "code": "FLAT400"
+      },
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 5000,
+      "offer": 4599,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM630",
+      "isHidden": true,
+      "title": "Tailmate Intermediate 30",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-500",
+        "code": "FLAT500"
+      },
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 6000,
+      "offer": 2699,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM730",
+      "isHidden": true,
+      "title": "Tailmate Intermediate 30 +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-550",
+        "code": "FLAT550"
+      },
+      "duration": 20,
+      "period": 30,
+      "daysInWeek": 7,
+      "mrpPer": "/month",
+      "mrp": 7000,
+      "offer": 3049,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TDM640",
+      "isHidden": false,
+      "title": "Tailmate Pro",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "6 days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-500",
+        "code": "FLAT500"
+      },
+      "duration": 40,
+      "period": 30,
+      "daysInWeek": 6,
+      "mrpPer": "/month",
+      "mrp": 6000,
+      "offer": 5449,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -308,19 +441,18 @@
           "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT200 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-300",
+        "code": "FLAT300"
+      },
       "duration": 40,
       "period": 30,
       "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 7000,
-      "offer": 6800,
+      "offer": 6699,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -344,19 +476,18 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT150 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-250",
+        "code": "FLAT250"
+      },
       "duration": 20,
       "period": 90,
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 12900,
-      "offer": 11900,
+      "offer": 11899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -380,19 +511,18 @@
           "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT150 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-250",
+        "code": "FLAT250"
+      },
       "duration": 20,
       "period": 90,
       "daysInWeek": 7,
       "mrpPer": "/quarter",
       "mrp": 15000,
-      "offer": 13900,
+      "offer": 13899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -416,19 +546,53 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT150 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-250",
+        "code": "FLAT250"
+      },
       "duration": 40,
       "period": 90,
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 9900,
-      "offer": 9150,
+      "offer": 9149,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "TSQ740",
+      "isHidden": false,
+      "title": "Tailmate Advanced+ (Quarterly)",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-250",
+        "code": "FLAT250"
+      },
+      "duration": 40,
+      "period": 90,
+      "daysInWeek": 6,
+      "mrpPer": "/quarter",
+      "mrp": 12300,
+      "offer": 11299,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -452,19 +616,18 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-350",
+        "code": "FLAT350"
+      },
       "duration": 40,
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 18000,
-      "offer": 16800,
+      "offer": 16799,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
@@ -485,24 +648,128 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT250 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
           "type": "unique"
         }
       ],
+      "coupon": {
+        "formula": "${a}-350",
+        "code": "FLAT350"
+      },
       "duration": 40,
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 21000,
-      "offer": 19800,
+      "offer": 19799,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     }
-  ]
+  ],
+  "campaign": {
+    "gurgaon": {
+      "TSM620": {
+        "coupon": {
+          "formula": "${a}-150",
+          "code": "GGN150"
+        },
+        "mrp": 2900,
+        "offer": 1349
+      },
+      "TSM720": {
+        "coupon": {
+          "formula": "${a}-200",
+          "code": "GGN200"
+        },
+        "mrp": 3200,
+        "offer": 1699
+      },
+      "TDM620": {
+        "coupon": {
+          "formula": "${a}-250",
+          "code": "GGN250"
+        },
+        "mrp": 4300,
+        "offer": 1949
+      },
+      "TDM720": {
+        "coupon": {
+          "formula": "${a}-300",
+          "code": "GGN300"
+        },
+        "mrp": 5000,
+        "offer": 2299
+      },
+      "TSM630": {
+        "isHidden": false,
+        "coupon": {
+          "formula": "${a}-400",
+          "code": "GGN400"
+        },
+        "mrp": 3300,
+        "offer": 1999
+      },
+      "TSM730": {
+        "isHidden": false,
+        "coupon": {
+          "formula": "${a}-450",
+          "code": "GGN450"
+        },
+        "mrp": 4100,
+        "offer": 2249
+      },
+      "TDM630": {
+        "isHidden": false,
+        "coupon": {
+          "formula": "${a}-500",
+          "code": "GGN500"
+        },
+        "mrp": 6000,
+        "offer": 2699
+      },
+      "TDM730": {
+        "isHidden": false,
+
+        "coupon": {
+          "formula": "${a}-550",
+          "code": "GGN550"
+        },
+        "mrp": 7000,
+        "offer": 3049
+      },
+      "TSM640": {
+        "coupon": {
+          "formula": "${a}-600",
+          "code": "GGN600"
+        },
+        "mrp": 3800,
+        "offer": 2499
+      },
+      "TSM740": {
+        "coupon": {
+          "formula": "${a}-650",
+          "code": "GGN650"
+        },
+        "mrp": 4600,
+        "offer": 2749
+      },
+      "TDM640": {
+        "coupon": {
+          "formula": "${a}-700",
+          "code": "GGN700"
+        },
+        "mrp": 6500,
+        "offer": 3699
+      },
+      "TDM740": {
+        "coupon": {
+          "formula": "${a}-750",
+          "code": "GGN750"
+        },
+        "mrp": 7500,
+        "offer": 4249
+      }
+    }
+  }
 }
