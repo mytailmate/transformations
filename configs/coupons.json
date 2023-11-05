@@ -35,9 +35,9 @@
     {
       "title": "FLAT Offer FLAT350 off",
       "description": "Applicable for first purchase",
-      "content": "Flat FLAT250 off on your purchase",
-      "formula": "${a}-250",
-      "code": "FLAT250",
+      "content": "Flat FLAT350 off on your purchase",
+      "formula": "${a}-350",
+      "code": "FLAT350",
       "onlyFor": ["TDQ640", "TDQ740"]
     },
     {
@@ -49,5 +49,105 @@
       "onlyFor": ["TDQ620", "TDQ720", "TSQ640", "TSQ740"]
     }
   ],
-  "custom": []
+  "custom": [],
+  "campaign": {
+    "gurgaon": [
+      {
+        "title": "FLAT Offer 150 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 150 off on your purchase",
+        "formula": "${a}-150",
+        "code": "GGN150",
+        "onlyFor": ["TSM620"]
+      },
+      {
+        "title": "FLAT Offer 200 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 200 off on your purchase",
+        "formula": "${a}-200",
+        "code": "GGN200",
+        "onlyFor": ["TSM720"]
+      },
+      {
+        "title": "FLAT Offer 250 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 250 off on your purchase",
+        "formula": "${a}-250",
+        "code": "GGN250",
+        "onlyFor": ["TDM620"]
+      },
+      {
+        "title": "FLAT Offer 300 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 300 off on your purchase",
+        "formula": "${a}-300",
+        "code": "GGN300",
+        "onlyFor": ["TDM720"]
+      },
+      {
+        "title": "FLAT Offer 400 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 400 off on your purchase",
+        "formula": "${a}-400",
+        "code": "GGN400",
+        "onlyFor": ["TSM630"]
+      },
+      {
+        "title": "FLAT Offer 450 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 450 off on your purchase",
+        "formula": "${a}-450",
+        "code": "GGN450",
+        "onlyFor": ["TSM730"]
+      },
+      {
+        "title": "FLAT Offer 500 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 500 off on your purchase",
+        "formula": "${a}-500",
+        "code": "GGN500",
+        "onlyFor": ["TDM630"]
+      },
+      {
+        "title": "FLAT Offer 550 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 550 off on your purchase",
+        "formula": "${a}-550",
+        "code": "GGN550",
+        "onlyFor": ["TDM730"]
+      },
+      {
+        "title": "FLAT Offer 600 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 600 off on your purchase",
+        "formula": "${a}-600",
+        "code": "GGN600",
+        "onlyFor": ["TSM640"]
+      },
+      {
+        "title": "FLAT Offer 650 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 650 off on your purchase",
+        "formula": "${a}-650",
+        "code": "GGN650",
+        "onlyFor": ["TSM740"]
+      },
+      {
+        "title": "FLAT Offer 700 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 700 off on your purchase",
+        "formula": "${a}-700",
+        "code": "GGN700",
+        "onlyFor": ["TDM640"]
+      },
+      {
+        "title": "FLAT Offer 750 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 750 off on your purchase",
+        "formula": "${a}-750",
+        "code": "GGN750",
+        "onlyFor": ["TDM740"]
+      }
+    ]
+  }
 }
