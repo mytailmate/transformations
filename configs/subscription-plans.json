@@ -735,7 +735,6 @@
       },
       "TDM730": {
         "isHidden": false,
-
         "coupon": {
           "formula": "${a}-550",
           "code": "GGN550"
@@ -774,6 +773,25 @@
         },
         "mrp": 7500,
         "offer": 4249
+      },
+
+      "TSQ640": {
+        "isHidden": true
+      },
+      "TSQ740": {
+        "isHidden": true
+      },
+      "TDQ620": {
+        "isHidden": true
+      },
+      "TDQ720": {
+        "isHidden": true
+      },
+      "TDQ640": {
+        "isHidden": true
+      },
+      "TDQ740": {
+        "isHidden": true
       }
     }
   }
