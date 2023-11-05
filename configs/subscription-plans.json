@@ -161,11 +161,6 @@
           "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
-          "type": "unique"
         }
       ],
       "coupon": {
@@ -685,6 +680,7 @@
         "extraPetFormula": "${a}"
       },
       "TSM720": {
+        "isHidden": false,
         "coupon": {
           "formula": "${a}-200",
           "code": "GGN200"
