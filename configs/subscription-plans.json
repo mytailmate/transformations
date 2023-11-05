@@ -134,7 +134,7 @@
       },
       "duration": 20,
       "period": 30,
-      "daysInWeek": 7,
+      "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 4300,
       "offer": 3899,
@@ -158,13 +158,8 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
-          "type": "unique"
-        },
-        {
-          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
-          "icon": "LocalOfferIcon",
           "type": "unique"
         }
       ],
@@ -174,7 +169,7 @@
       },
       "duration": 20,
       "period": 30,
-      "daysInWeek": 6,
+      "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 5000,
       "offer": 4599,
@@ -198,7 +193,7 @@
           "type": "unique"
         },
         {
-          "label": "All days in a week",
+          "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         }
@@ -209,7 +204,7 @@
       },
       "duration": 30,
       "period": 30,
-      "daysInWeek": 7,
+      "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 3300,
       "offer": 1999,
@@ -233,7 +228,7 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         }
@@ -242,9 +237,9 @@
         "formula": "${a}-450",
         "code": "FLAT450"
       },
-      "duration": 20,
+      "duration": 30,
       "period": 30,
-      "daysInWeek": 6,
+      "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 4100,
       "offer": 2249,
@@ -277,7 +272,7 @@
         "formula": "${a}-500",
         "code": "FLAT500"
       },
-      "duration": 20,
+      "duration": 30,
       "period": 30,
       "daysInWeek": 6,
       "mrpPer": "/month",
@@ -312,7 +307,7 @@
         "formula": "${a}-550",
         "code": "FLAT550"
       },
-      "duration": 20,
+      "duration": 30,
       "period": 30,
       "daysInWeek": 7,
       "mrpPer": "/month",
@@ -373,7 +368,7 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         }
@@ -594,7 +589,7 @@
       },
       "duration": 40,
       "period": 90,
-      "daysInWeek": 6,
+      "daysInWeek": 7,
       "mrpPer": "/quarter",
       "mrp": 12300,
       "offer": 11299,
@@ -664,7 +659,7 @@
       },
       "duration": 40,
       "period": 30,
-      "daysInWeek": 6,
+      "daysInWeek": 7,
       "mrpPer": "/quarter",
       "mrp": 21000,
       "offer": 19799,
@@ -685,6 +680,7 @@
         "extraPetFormula": "${a}"
       },
       "TSM720": {
+        "isHidden": false,
         "coupon": {
           "formula": "${a}-200",
           "code": "GGN200"
