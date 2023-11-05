@@ -134,7 +134,7 @@
       },
       "duration": 20,
       "period": 30,
-      "daysInWeek": 6,
+      "daysInWeek": 7,
       "mrpPer": "/month",
       "mrp": 4300,
       "offer": 3899,
@@ -158,8 +158,13 @@
           "type": "unique"
         },
         {
-          "label": "All days in a week",
+          "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "OFFER: FLAT300 OFF COUPON ON CHECKOUT",
+          "icon": "LocalOfferIcon",
           "type": "unique"
         }
       ],
@@ -169,7 +174,7 @@
       },
       "duration": 20,
       "period": 30,
-      "daysInWeek": 7,
+      "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 5000,
       "offer": 4599,
@@ -183,7 +188,7 @@
       "slotPerDay": 1,
       "description": [
         {
-          "label": "Single walk in a day",
+          "label": "Two walks in a day",
           "icon": "StarOutlineIcon",
           "type": "unique"
         },
@@ -193,7 +198,7 @@
           "type": "unique"
         },
         {
-          "label": "6 days in a week",
+          "label": "All days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         }
@@ -368,7 +373,7 @@
           "type": "unique"
         },
         {
-          "label": "All days in a week",
+          "label": "6 days in a week",
           "icon": "CalendarMonthIcon",
           "type": "unique"
         }
