@@ -319,7 +319,7 @@
     {
       "id": "TSM640",
       "isHidden": false,
-      "title": "Tailmate Advanced",
+      "title": "Tailmate Advance",
       "slotPerDay": 1,
       "description": [
         {
@@ -354,7 +354,7 @@
     {
       "id": "TSM740",
       "isHidden": false,
-      "title": "Tailmate Advanced +",
+      "title": "Tailmate Advance +",
       "slotPerDay": 1,
       "description": [
         {
@@ -529,7 +529,7 @@
     {
       "id": "TSQ640",
       "isHidden": false,
-      "title": "Tailmate Advanced (Quarterly)",
+      "title": "Tailmate Advance (Quarterly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -564,7 +564,7 @@
     {
       "id": "TSQ740",
       "isHidden": false,
-      "title": "Tailmate Advanced+ (Quarterly)",
+      "title": "Tailmate Advance+ (Quarterly)",
       "slotPerDay": 1,
       "description": [
         {
