@@ -94,15 +94,15 @@
         }
       ],
       "coupon": {
-        "formula": "${a}-100",
-        "code": "FLAT100"
+        "formula": "${a}-300",
+        "code": "FLAT300"
       },
       "duration": 20,
       "period": 30,
       "daysInWeek": 7,
       "mrpPer": "/month",
-      "mrp": 2500,
-      "offer": 2500,
+      "mrp": 3100,
+      "offer": 2899,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
