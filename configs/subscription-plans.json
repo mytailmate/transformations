@@ -73,7 +73,7 @@
     },
     {
       "id": "TSM720",
-      "isHidden": true,
+      "isHidden": false,
       "title": "Tailmate Beginner +",
       "slotPerDay": 1,
       "description": [
