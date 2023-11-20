@@ -49,7 +49,16 @@
       "onlyFor": ["TDQ620", "TDQ720", "TSQ640", "TSQ740"]
     }
   ],
-  "custom": [],
+  "custom": [
+    {
+      "title": "Renew Plan 10% off",
+      "description": "Applicable on renew plan",
+      "content": "Flat 10% off on your purchase",
+      "formula": "${a} - 0.1 * ${a}",
+      "code": "RENEW10",
+      "onlyFor": []
+    }
+  ],
   "campaign": {
     "gurgaon": [
       {
