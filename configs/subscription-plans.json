@@ -417,7 +417,7 @@
       "daysInWeek": 6,
       "mrpPer": "/month",
       "mrp": 6000,
-      "offer": 5449,
+      "offer": 5499,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
     },
