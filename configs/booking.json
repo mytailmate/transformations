@@ -89,7 +89,7 @@
     }
   },
   "skipBooking": {
-    "morning": ["Sunday"],
+    "morning": [],
     "evening": []
   }
 }
