@@ -14,7 +14,7 @@
       "content": "Flat 300 off on your purchase",
       "formula": "${a}-300",
       "code": "FLAT300",
-      "onlyFor": ["TSM620", "TDM620", "TSM640", "TSQ620"]
+      "onlyFor": ["TSM620", "TDM620", "TSM640", "TSQ620", "TDQ630"]
     },
     {
       "title": "FLAT Offer 200 off",
@@ -22,7 +22,15 @@
       "content": "Flat 200 off on your purchase",
       "formula": "${a}-200",
       "code": "FLAT200",
-      "onlyFor": ["TSM720", "TSM740", "TSQ720", "TSQ640"]
+      "onlyFor": [
+        "TSM720",
+        "TSM740",
+        "TSQ720",
+        "TSQ640",
+        "TSM630",
+        "TSM730",
+        "TSQ730"
+      ]
     },
     {
       "title": "Flat 700 off",
@@ -38,7 +46,7 @@
       "content": "Flat 500 off on your purchase",
       "formula": "${a}-500",
       "code": "Flat500",
-      "onlyFor": ["TDQ620"]
+      "onlyFor": ["TDQ620", "TSQ630", "TDQ730"]
     }
   ],
   "custom": [
@@ -83,7 +91,7 @@
         "content": "Flat 300 off on your purchase",
         "formula": "${a}-300",
         "code": "GGN300",
-        "onlyFor": ["TDM720"]
+        "onlyFor": ["TDM720", "TDM730"]
       },
       {
         "title": "FLAT Offer 400 off",
@@ -91,7 +99,7 @@
         "content": "Flat 400 off on your purchase",
         "formula": "${a}-400",
         "code": "GGN400",
-        "onlyFor": ["TSM630"]
+        "onlyFor": ["TSM630", "TDM630"]
       },
       {
         "title": "FLAT Offer 450 off",
