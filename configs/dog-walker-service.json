@@ -89,6 +89,11 @@
             "label": "Health Activity Dashboard",
             "icon": "StackedBarChartIcon",
             "type": "common"
+          },
+          {
+            "label": "Tailcare specialist over whatsapp",
+            "icon": "WhatsAppIcon",
+            "type": "common"
           }
         ],
         "duration": 40,
