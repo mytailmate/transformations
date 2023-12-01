@@ -955,7 +955,7 @@
         "code": "FLAT400"
       },
       "duration": 40,
-      "period": 30,
+      "period": 90,
       "daysInWeek": 6,
       "mrpPer": "/quarter",
       "mrp": 18000,
@@ -995,7 +995,7 @@
         "code": "FLAT400"
       },
       "duration": 40,
-      "period": 30,
+      "period": 90,
       "daysInWeek": 7,
       "mrpPer": "/quarter",
       "mrp": 21000,
