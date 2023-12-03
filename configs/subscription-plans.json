@@ -1002,6 +1002,51 @@
       "offer": 19199,
       "addPetText": "Add 1 more pet for 30% discount",
       "extraPetFormula": "${a} - 0.3 * ${a}"
+    },
+    {
+      "id": "PTDQ740",
+      "isHidden": true,
+      "title": "Premium Tailmate Pro+ (Quarterly)",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "40 minute morning walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "20 minute evening walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        },
+        {
+          "label": "All days in a week",
+          "icon": "CalendarMonthIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Tailcare specialist over whatsapp",
+          "icon": "WhatsAppIcon",
+          "type": "unique"
+        }
+      ],
+      "coupon": {
+        "formula": "${a}-1000",
+        "code": "FLAT1000"
+      },
+      "duration": 40,
+      "period": 90,
+      "daysInWeek": 7,
+      "mrpPer": "/quarter",
+      "mrp": 22000,
+      "offer": 21000,
+      "addPetText": "Add 1 more pet for 30% discount",
+      "extraPetFormula": "${a} - 0.3 * ${a}"
     }
   ],
   "campaign": {
@@ -1131,6 +1176,28 @@
         "addPetText": "Add more pet",
         "extraPetFormula": "${a}"
       },
+      "TSQ620": {
+        "isHidden": true
+      },
+      "TSQ720": {
+        "isHidden": true
+      },
+      "TDMQ20": {
+        "isHidden": true
+      },
+      "TSQ630": {
+        "isHidden": true
+      },
+      "TSQ730": {
+        "isHidden": true
+      },
+      "TDQ630": {
+        "isHidden": true
+      },
+      "TDQ730": {
+        "isHidden": true
+      },
+
       "TSQ640": {
         "isHidden": true
       },
@@ -1148,6 +1215,90 @@
       },
       "TDQ740": {
         "isHidden": true
+      }
+    },
+    "premium": {
+      "T0": {
+        "isHidden": true
+      },
+      "TSM620": {
+        "isHidden": true
+      },
+      "TSM720": {
+        "isHidden": true
+      },
+      "TDM620": {
+        "isHidden": true
+      },
+      "TDM720": {
+        "isHidden": true
+      },
+      "TSM630": {
+        "isHidden": true
+      },
+      "TSM730": {
+        "isHidden": true
+      },
+      "TDM630": {
+        "isHidden": true
+      },
+      "TDM730": {
+        "isHidden": true
+      },
+      "TSM640": {
+        "isHidden": true
+      },
+      "TSM740": {
+        "isHidden": true
+      },
+      "TDM640": {
+        "isHidden": true
+      },
+      "TDM740": {
+        "isHidden": true
+      },
+      "TSQ620": {
+        "isHidden": true
+      },
+      "TSQ720": {
+        "isHidden": true
+      },
+      "TDMQ20": {
+        "isHidden": true
+      },
+      "TSQ630": {
+        "isHidden": true
+      },
+      "TSQ730": {
+        "isHidden": true
+      },
+      "TDQ630": {
+        "isHidden": true
+      },
+      "TDQ730": {
+        "isHidden": true
+      },
+
+      "TSQ640": {
+        "isHidden": true
+      },
+      "TSQ740": {
+        "isHidden": true
+      },
+      "TDQ620": {
+        "isHidden": true
+      },
+      "TDQ720": {
+        "isHidden": true
+      },
+      "TDQ640": {
+        "isHidden": true
+      },
+      "TDQ740": {
+        "isHidden": true
+      },
+      "PTDQ740": {
+        "isHidden": false
       }
     }
   }
