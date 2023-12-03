@@ -157,6 +157,16 @@
         "code": "GGN750",
         "onlyFor": ["TDM740"]
       }
+    ],
+    "premium": [
+      {
+        "title": "Flat 1000 off",
+        "description": "Applicable for first purchase",
+        "content": "Flat 1000 off on your purchase",
+        "formula": "${a}-1000",
+        "code": "Flat1000",
+        "onlyFor": ["PTDQ740"]
+      }
     ]
   }
 }
