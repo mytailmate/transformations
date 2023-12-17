@@ -4,6 +4,10 @@
   "content": "",
   "currency": "₹",
   "currencyCode": "INR",
+  "customRate": {
+    "1-5": [175, 350],
+    "6-20": [150, 300]
+  },
   "packages": [
     {
       "id": "T0",
@@ -40,6 +44,86 @@
       "offer": 0,
       "addPetText": "Add 1 more pet for no cost",
       "extraPetFormula": "0"
+    },
+    {
+      "id": "TSC730",
+      "isHidden": false,
+      "title": "Tailmate Stride +",
+      "slotPerDay": 1,
+      "description": [
+        {
+          "label": "Tailmate Stride +",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Single walk in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Tailcare specialist over whatsapp",
+          "icon": "WhatsAppIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 30,
+      "period": 1,
+      "daysInWeek": 7,
+      "mrpPer": "/day",
+      "mrp": 175,
+      "offer": 175,
+      "addPetText": "Add 1 more pet for no cost",
+      "extraPetFormula": "${a} - 0.3 * ${a}",
+      "coupon": {
+        "formula": "${a}-0.05*${a}",
+        "code": "CUSTOM5"
+      }
+    },
+    {
+      "id": "TDC730",
+      "isHidden": false,
+      "title": "Tailmate Express +",
+      "slotPerDay": 2,
+      "description": [
+        {
+          "label": "Custom package for you",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Two walks in a day",
+          "icon": "StarOutlineIcon",
+          "type": "unique"
+        },
+        {
+          "label": "Tailcare specialist over whatsapp",
+          "icon": "WhatsAppIcon",
+          "type": "unique"
+        },
+        {
+          "label": "30 minute walk",
+          "icon": "QueryBuilderIcon",
+          "type": "unique"
+        }
+      ],
+      "duration": 30,
+      "period": 1,
+      "daysInWeek": 7,
+      "mrpPer": "/day",
+      "mrp": 350,
+      "offer": 350,
+      "addPetText": "Add 1 more pet for no cost",
+      "extraPetFormula": "${a} - 0.3 * ${a}",
+      "coupon": {
+        "formula": "${a}-0.05*${a}",
+        "code": "CUSTOM5"
+      }
     },
     {
       "id": "TSM620",
