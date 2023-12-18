@@ -75,14 +75,14 @@
       "duration": 30,
       "period": 1,
       "daysInWeek": 7,
-      "mrpPer": "/day",
+      "mrpPer": "",
       "mrp": 175,
       "offer": 175,
       "addPetText": "Add 1 more pet for no cost",
       "extraPetFormula": "${a} - 0.3 * ${a}",
       "coupon": {
         "formula": "${a}-0.05*${a}",
-        "code": "CUSTOM5"
+        "code": "MTM5"
       }
     },
     {
@@ -115,14 +115,14 @@
       "duration": 30,
       "period": 1,
       "daysInWeek": 7,
-      "mrpPer": "/day",
+      "mrpPer": "",
       "mrp": 350,
       "offer": 350,
       "addPetText": "Add 1 more pet for no cost",
       "extraPetFormula": "${a} - 0.3 * ${a}",
       "coupon": {
         "formula": "${a}-0.05*${a}",
-        "code": "CUSTOM5"
+        "code": "MTM5"
       }
     },
     {
