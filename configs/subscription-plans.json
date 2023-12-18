@@ -5,8 +5,8 @@
   "currency": "₹",
   "currencyCode": "INR",
   "customRate": {
-    "1-5": [175, 350],
-    "6-20": [150, 300]
+    "1-5": [175, 175],
+    "6-20": [150, 150]
   },
   "packages": [
     {
@@ -75,7 +75,7 @@
       "duration": 30,
       "period": 1,
       "daysInWeek": 7,
-      "mrpPer": "",
+      "mrpPer": "/walk",
       "mrp": 175,
       "offer": 175,
       "addPetText": "Add 1 more pet for no cost",
@@ -115,9 +115,9 @@
       "duration": 30,
       "period": 1,
       "daysInWeek": 7,
-      "mrpPer": "",
-      "mrp": 350,
-      "offer": 350,
+      "mrpPer": "/walk",
+      "mrp": 175,
+      "offer": 175,
       "addPetText": "Add 1 more pet for no cost",
       "extraPetFormula": "${a} - 0.3 * ${a}",
       "coupon": {
