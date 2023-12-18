@@ -63,7 +63,7 @@
       "description": "Applicable only for customized plan",
       "content": "Flat 5% off on your purchase",
       "formula": "${a} - 0.0.5 * ${a}",
-      "code": "CUSTOM5",
+      "code": "MTM5",
       "onlyFor": ["TSC730", "TDC730"]
     }
   ],
