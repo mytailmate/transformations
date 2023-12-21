@@ -2,44 +2,81 @@
   "slots": {
     "morning": [
       "slot_5:00am",
+      "slot_5:15am",
       "slot_5:30am",
+      "slot_5:45am",
       "slot_6:00am",
+      "slot_6:15am",
       "slot_6:30am",
+      "slot_6:45am",
       "slot_7:00am",
+      "slot_7:15am",
       "slot_7:30am",
+      "slot_7:45am",
       "slot_8:00am",
+      "slot_8:15am",
       "slot_8:30am",
+      "slot_8:45am",
       "slot_9:00am",
+      "slot_9:15am",
       "slot_9:30am",
+      "slot_9:45am",
       "slot_10:00am",
+      "slot_10:15am",
       "slot_10:30am",
+      "slot_10:45am",
       "slot_11:00am",
-      "slot_11:30am"
+      "slot_11:15am",
+      "slot_11:30am",
+      "slot_11:45am"
     ],
     "evening": [
       "slot_12:00pm",
+      "slot_12:15pm",
       "slot_12:30pm",
+      "slot_12:45pm",
       "slot_1:00pm",
+      "slot_1:15pm",
       "slot_1:30pm",
+      "slot_1:45pm",
       "slot_2:00pm",
+      "slot_2:15pm",
       "slot_2:30pm",
+      "slot_2:45pm",
       "slot_3:00pm",
+      "slot_3:15pm",
       "slot_3:30pm",
+      "slot_3:45pm",
       "slot_4:00pm",
+      "slot_4:15pm",
       "slot_4:30pm",
+      "slot_4:45pm",
       "slot_5:00pm",
+      "slot_5:15pm",
       "slot_5:30pm",
+      "slot_5:45pm",
       "slot_6:00pm",
+      "slot_6:15pm",
       "slot_6:30pm",
+      "slot_6:45pm",
       "slot_7:00pm",
+      "slot_7:15pm",
       "slot_7:30pm",
+      "slot_7:45pm",
       "slot_8:00pm",
+      "slot_8:15pm",
       "slot_8:30pm",
+      "slot_8:45pm",
       "slot_9:00pm",
+      "slot_9:15pm",
       "slot_9:30pm",
+      "slot_9:45pm",
       "slot_10:00pm",
+      "slot_10:15pm",
       "slot_10:30pm",
+      "slot_10:45pm",
       "slot_11:00pm",
+      "slot_11:15pm",
       "slot_11:30pm"
     ]
   },
@@ -112,5 +149,89 @@
         }
       ]
     }
+  },
+  "walkRules": {
+    "morning": {
+      "time": "11:00",
+      "threshold": 0
+    },
+    "evening": {
+      "time": "23:00",
+      "threshold": 120
+    },
+    "lateWalk": 600
+  },
+  "absentReason": [
+    {
+      "subject": "PLANNED_LEAVE",
+      "label": "Planned Leave"
+    },
+    {
+      "subject": "CANCELLED_BY_CUSTOMER",
+      "label": "Customer asked for cancellation"
+    },
+    {
+      "subject": "WALK_POSTPONED",
+      "label": "Walk postponed to another day"
+    },
+    {
+      "subject": "PAUSED_SUBSCRIPTION",
+      "label": "Customer paused the susbcription"
+    },
+    {
+      "subject": "EMERGENCY_LEAVE",
+      "label": "Emergency Leave"
+    },
+    {
+      "subject": "LEFT_JOB",
+      "label": "Left Job"
+    },
+    {
+      "subject": "REASON_NOT_LIST",
+      "label": "Reason not listed"
+    }
+  ],
+  "presentReason": [
+    {
+      "subject": "APP_ISSUE",
+      "label": "App not worked"
+    },
+    {
+      "subject": "GPS_ISSUE",
+      "label": "GPS not working"
+    },
+    {
+      "subject": "REACHED_BUT_DENIED",
+      "label": "Reached but denied by customer"
+    },
+    {
+      "subject": "REASON_NOT_LIST",
+      "label": "Reason not listed"
+    }
+  ],
+  "walksRegion": {
+    "ALL": [
+      "MTM1",
+      "MTM2",
+      "MTM3",
+      "MTM4",
+      "MTM5",
+      "MTM6",
+      "MTM7",
+      "MTMD0",
+      "MTMD1",
+      "MTMD2",
+      "MTMD3",
+      "MTMF",
+      "MTMN0",
+      "MTMN1",
+      "MTMN2",
+      "MTMGZ"
+    ],
+    "MTMGGN": ["MTM1", "MTM2", "MTM3", "MTM4", "MTM5", "MTM6", "MTM7"],
+    "MTMD": ["MTMD0", "MTMD1", "MTMD2", "MTMD3"],
+    "MTMF": ["MTMF"],
+    "MTMN": ["MTMN0", "MTMN1", "MTMN2"],
+    "MTMGZ": ["MTMGZ"]
   }
 }
