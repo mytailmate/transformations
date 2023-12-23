@@ -1,155 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>North Delhi </name>
-    <description/>
-    <Style id="icon-1899-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-9C27B0-1200-77-nodesc-normal">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4db0279c</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-9C27B0-1200-77-nodesc-highlight">
-      <LineStyle>
-        <color>ffb0279c</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4db0279c</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-9C27B0-1200-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-9C27B0-1200-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-9C27B0-1200-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>Untitled layer</name>
-      <Placemark>
-        <name>MTMD0</name>
-        <styleUrl>#poly-9C27B0-1200-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                77.0752449,28.8489197,0
-                77.0601387,28.868765,0
-                77.0477791,28.8435067,0
-                77.0395393,28.8320783,0
-                77.0134468,28.8429052,0
-                76.9928474,28.8350859,0
-                76.9633217,28.8146326,0
-                76.9502754,28.817039,0
-                76.943409,28.8013959,0
-                76.9502754,28.7983874,0
-                76.9550819,28.7965822,0
-                76.953022,28.7863522,0
-                76.9516487,28.7767231,0
-                76.9564552,28.7676951,0
-                76.9461555,28.7574623,0
-                76.9598885,28.7442184,0
-                76.9598885,28.7375958,0
-                76.9619484,28.7297686,0
-                76.9475288,28.7135101,0
-                76.9701881,28.7020675,0
-                76.9633217,28.691226,0
-                77.0185987,28.685816,0
-                77.0738716,28.6833953,0
-                77.1393604,28.6745097,0
-                77.1889747,28.6693204,0
-                77.2030285,28.6673996,0
-                77.2098723,28.6675866,0
-                77.2318001,28.6706691,0
-                77.2400399,28.7229945,0
-                77.2535162,28.7408886,0
-                77.2436472,28.7554713,0
-                77.2352363,28.7617555,0
-                77.2348932,28.7655827,0
-                77.2306022,28.7716671,0
-                77.2041646,28.7844375,0
-                77.1773845,28.7824613,0
-                77.1645099,28.7827623,0
-                77.1619339,28.7953787,0
-                77.1521492,28.8113236,0
-                77.1219368,28.8585421,0
-                77.0972176,28.8585421,0
-                77.073185,28.8555352,0
-                77.0752449,28.8489197,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>C-1 Block</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            77.2089022,28.677729,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-  </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>North Delhi</name>
+	<Style id="icon-1899-0288D1-nodesc-highlight">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-normal">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-9C27B0-1200-77-nodesc-highlight">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-9C27B0-1200-77-nodesc-normal">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="poly-9C27B0-1200-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-9C27B0-1200-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-9C27B0-1200-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="02B7E790FE2DCB2BB6A3">
+		<name>Untitled layer</name>
+		<Placemark id="02A5F55F032DCB2BBD28">
+			<name>MTMD0</name>
+			<styleUrl>#poly-9C27B0-1200-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							77.0752449,28.8489197,0 77.0601387,28.868765,0 77.0477791,28.8435067,0 77.0395393,28.8320783,0 77.0134468,28.8429052,0 76.9928474,28.8350859,0 76.96332169999999,28.8146326,0 76.9502754,28.817039,0 76.943409,28.8013959,0 76.9502754,28.7983874,0 76.9550819,28.7965822,0 76.953022,28.7863522,0 76.95164870000001,28.7767231,0 76.95645519999999,28.7676951,0 76.9461555,28.7574623,0 76.95988850000001,28.7442184,0 76.95988850000001,28.7375958,0 76.9619484,28.7297686,0 76.9475288,28.7135101,0 76.9701881,28.7020675,0 76.96332169999999,28.691226,0 77.0185987,28.685816,0 77.14568945730117,28.62392017277474,0 77.19552633380624,28.58624517537591,0 77.21208789637707,28.5740444679684,0 77.24336105891027,28.57645280640836,0 77.27965622128984,28.60346231723052,0 77.2599010689069,28.65510791069915,0 77.25874508860545,28.66647918074254,0 77.25614105660969,28.68286939894728,0 77.2400399,28.7229945,0 77.25351620000001,28.74088860000001,0 77.2436472,28.7554713,0 77.2352363,28.7617555,0 77.2348932,28.7655827,0 77.23060220000001,28.7716671,0 77.2041646,28.7844375,0 77.1773845,28.7824613,0 77.1645099,28.7827623,0 77.16193389999999,28.7953787,0 77.1521492,28.81132360000001,0 77.1219368,28.8585421,0 77.09721759999999,28.8585421,0 77.073185,28.8555352,0 77.0752449,28.8489197,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="01D8AC27172DCB2BBD29">
+			<name>C-1 Block</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>77.2089022,28.677729,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
 </kml>
