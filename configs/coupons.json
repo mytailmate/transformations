@@ -64,7 +64,7 @@
       "content": "Flat 5% off on your purchase",
       "formula": "${a} - 0.0.5 * ${a}",
       "code": "MTM5",
-      "onlyFor": ["TSC730", "TDC730"]
+      "onlyFor": []
     }
   ],
   "campaign": {
