@@ -48,11 +48,11 @@
     {
       "id": "TSC730",
       "isHidden": false,
-      "title": "Tailmate Stride +",
+      "title": "Tailmate Stride+ ",
       "slotPerDay": 1,
       "description": [
         {
-          "label": "Tailmate Stride +",
+          "label": "Custom package for you",
           "icon": "StarOutlineIcon",
           "type": "unique"
         },
@@ -79,16 +79,12 @@
       "mrp": 175,
       "offer": 175,
       "addPetText": "Add 1 more pet for no cost",
-      "extraPetFormula": "${a} - 0.3 * ${a}",
-      "coupon": {
-        "formula": "${a}-0.05*${a}",
-        "code": "MTM5"
-      }
+      "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
       "id": "TDC730",
       "isHidden": false,
-      "title": "Tailmate Express +",
+      "title": "Tailmate Express+ ",
       "slotPerDay": 2,
       "description": [
         {
@@ -119,16 +115,12 @@
       "mrp": 175,
       "offer": 175,
       "addPetText": "Add 1 more pet for no cost",
-      "extraPetFormula": "${a} - 0.3 * ${a}",
-      "coupon": {
-        "formula": "${a}-0.05*${a}",
-        "code": "MTM5"
-      }
+      "extraPetFormula": "${a} - 0.3 * ${a}"
     },
     {
       "id": "TSM620",
       "isHidden": false,
-      "title": "Tailmate Beginner",
+      "title": "Tailmate Beginner (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -168,7 +160,7 @@
     {
       "id": "TSM720",
       "isHidden": false,
-      "title": "Tailmate Beginner +",
+      "title": "Tailmate Beginner+ (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -208,7 +200,7 @@
     {
       "id": "TDM620",
       "isHidden": false,
-      "title": "Tailmate Intermediate",
+      "title": "Tailmate Intermediate (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -248,7 +240,7 @@
     {
       "id": "TDM720",
       "isHidden": false,
-      "title": "Tailmate Intermediate +",
+      "title": "Tailmate Intermediate+ (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -288,7 +280,7 @@
     {
       "id": "TSM630",
       "isHidden": false,
-      "title": "Tailmate Stride",
+      "title": "Tailmate Stride (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -328,7 +320,7 @@
     {
       "id": "TSM730",
       "isHidden": false,
-      "title": "Tailmate Stride +",
+      "title": "Tailmate Stride+ (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -368,7 +360,7 @@
     {
       "id": "TDM630",
       "isHidden": false,
-      "title": "Tailmate Express",
+      "title": "Tailmate Express (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -408,7 +400,7 @@
     {
       "id": "TDM730",
       "isHidden": false,
-      "title": "Tailmate Express +",
+      "title": "Tailmate Express+ (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -448,7 +440,7 @@
     {
       "id": "TSM640",
       "isHidden": false,
-      "title": "Tailmate Advance",
+      "title": "Tailmate Advance (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -488,7 +480,7 @@
     {
       "id": "TSM740",
       "isHidden": false,
-      "title": "Tailmate Advance +",
+      "title": "Tailmate Advance+ (Monthly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -528,7 +520,7 @@
     {
       "id": "TDM640",
       "isHidden": false,
-      "title": "Tailmate Pro",
+      "title": "Tailmate Pro (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -568,7 +560,7 @@
     {
       "id": "TDM740",
       "isHidden": false,
-      "title": "Tailmate Pro +",
+      "title": "Tailmate Pro+ (Monthly)",
       "slotPerDay": 2,
       "description": [
         {
@@ -648,7 +640,7 @@
     {
       "id": "TSQ720",
       "isHidden": false,
-      "title": "Tailmate Beginner + (Quarterly)",
+      "title": "Tailmate Beginner+ (Quarterly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -809,7 +801,7 @@
     {
       "id": "TSQ730",
       "isHidden": false,
-      "title": "Tailmate Stride + (Quarterly)",
+      "title": "Tailmate Stride+ (Quarterly)",
       "slotPerDay": 1,
       "description": [
         {
@@ -889,7 +881,7 @@
     {
       "id": "TDQ730",
       "isHidden": false,
-      "title": "Tailmate Express + (Quarterly)",
+      "title": "Tailmate Express+ (Quarterly)",
       "slotPerDay": 2,
       "description": [
         {
