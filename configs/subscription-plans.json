@@ -8,6 +8,7 @@
     "1-5": [175, 175],
     "6-20": [150, 150]
   },
+  "maxPetsAllowed": 3,
   "packages": [
     {
       "id": "T0",
@@ -42,7 +43,7 @@
       "mrpPer": "/walk",
       "mrp": 100,
       "offer": 0,
-      "addPetText": ["Add 1 more pet for no cost"],
+      "addPetText": ["Add more pet for no cost"],
       "extraPetFormula": ["0"]
     },
     {
@@ -79,8 +80,8 @@
       "mrp": 175,
       "offer": 175,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -118,8 +119,8 @@
       "mrp": 175,
       "offer": 175,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -161,8 +162,8 @@
       "mrp": 2900,
       "offer": 2599,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -204,8 +205,8 @@
       "mrp": 3200,
       "offer": 2799,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -247,8 +248,8 @@
       "mrp": 4300,
       "offer": 3899,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -290,8 +291,8 @@
       "mrp": 5000,
       "offer": 4599,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -333,8 +334,8 @@
       "mrp": 3100,
       "offer": 2699,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -376,8 +377,8 @@
       "mrp": 3800,
       "offer": 3599,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -419,8 +420,8 @@
       "mrp": 5500,
       "offer": 4999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -462,8 +463,8 @@
       "mrp": 6500,
       "offer": 5999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -505,8 +506,8 @@
       "mrp": 3300,
       "offer": 2999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -548,8 +549,8 @@
       "mrp": 4100,
       "offer": 3899,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -591,8 +592,8 @@
       "mrp": 6000,
       "offer": 5499,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -634,8 +635,8 @@
       "mrp": 7000,
       "offer": 6699,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -677,8 +678,8 @@
       "mrp": 8700,
       "offer": 6999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -720,8 +721,8 @@
       "mrp": 9600,
       "offer": 7799,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -763,8 +764,8 @@
       "mrp": 12900,
       "offer": 10999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -806,8 +807,8 @@
       "mrp": 15000,
       "offer": 12999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -850,8 +851,8 @@
       "mrp": 9300,
       "offer": 7499,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -893,8 +894,8 @@
       "mrp": 11400,
       "offer": 10199,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -936,8 +937,8 @@
       "mrp": 16500,
       "offer": 13799,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -979,8 +980,8 @@
       "mrp": 19500,
       "offer": 16999,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -1023,8 +1024,8 @@
       "mrp": 9900,
       "offer": 7899,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -1066,8 +1067,8 @@
       "mrp": 12300,
       "offer": 11199,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -1109,8 +1110,8 @@
       "mrp": 18000,
       "offer": 15299,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -1152,8 +1153,8 @@
       "mrp": 21000,
       "offer": 19199,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
@@ -1200,8 +1201,8 @@
       "mrp": 22000,
       "offer": 21000,
       "addPetText": [
-        "Add 1 more pet for 30% discount",
-        "Add another pet for 50% discount"
+        "Add second pet for 30% discount",
+        "Add third pet for 50% discount"
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     }
