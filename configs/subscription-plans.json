@@ -9,6 +9,7 @@
     "6-20": [150, 150]
   },
   "maxPetsAllowed": 3,
+  "activeCampaigns": ["in"],
   "packages": [
     {
       "id": "T0",
@@ -985,7 +986,6 @@
       ],
       "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
     },
-
     {
       "id": "TSQ640",
       "isHidden": false,
@@ -1208,177 +1208,7 @@
     }
   ],
   "campaign": {
-    "gurgaon": {
-      "TSM620": {
-        "coupon": {
-          "formula": "${a}-150",
-          "code": "GGN150"
-        },
-        "mrp": 2900,
-        "offer": 1349,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TSM720": {
-        "isHidden": false,
-        "coupon": {
-          "formula": "${a}-200",
-          "code": "GGN200"
-        },
-        "mrp": 3200,
-        "offer": 1699,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM620": {
-        "coupon": {
-          "formula": "${a}-250",
-          "code": "GGN250"
-        },
-        "mrp": 4300,
-        "offer": 1949,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM720": {
-        "coupon": {
-          "formula": "${a}-300",
-          "code": "GGN300"
-        },
-        "mrp": 5000,
-        "offer": 2299,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TSM630": {
-        "isHidden": false,
-        "coupon": {
-          "formula": "${a}-400",
-          "code": "GGN400",
-          "addPetText": "Add more pet",
-          "extraPetFormula": "${a}"
-        },
-        "mrp": 3300,
-        "offer": 1999
-      },
-      "TSM730": {
-        "isHidden": false,
-        "coupon": {
-          "formula": "${a}-450",
-          "code": "GGN450"
-        },
-        "mrp": 4100,
-        "offer": 2249,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM630": {
-        "isHidden": false,
-        "coupon": {
-          "formula": "${a}-500",
-          "code": "GGN500"
-        },
-        "mrp": 6000,
-        "offer": 2699,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM730": {
-        "isHidden": false,
-        "coupon": {
-          "formula": "${a}-550",
-          "code": "GGN550"
-        },
-        "mrp": 7000,
-        "offer": 3049,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TSM640": {
-        "coupon": {
-          "formula": "${a}-600",
-          "code": "GGN600"
-        },
-        "mrp": 3800,
-        "offer": 2499,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TSM740": {
-        "coupon": {
-          "formula": "${a}-650",
-          "code": "GGN650"
-        },
-        "mrp": 4600,
-        "offer": 2749,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM640": {
-        "coupon": {
-          "formula": "${a}-700",
-          "code": "GGN700"
-        },
-        "mrp": 6500,
-        "offer": 3699,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TDM740": {
-        "coupon": {
-          "formula": "${a}-750",
-          "code": "GGN750"
-        },
-        "mrp": 7500,
-        "offer": 4249,
-        "addPetText": "Add more pet",
-        "extraPetFormula": "${a}"
-      },
-      "TSQ620": {
-        "isHidden": true
-      },
-      "TSQ720": {
-        "isHidden": true
-      },
-      "TDMQ20": {
-        "isHidden": true
-      },
-      "TSQ630": {
-        "isHidden": true
-      },
-      "TSQ730": {
-        "isHidden": true
-      },
-      "TDQ630": {
-        "isHidden": true
-      },
-      "TDQ730": {
-        "isHidden": true
-      },
-
-      "TSQ640": {
-        "isHidden": true
-      },
-      "TSQ740": {
-        "isHidden": true
-      },
-      "TDQ620": {
-        "isHidden": true
-      },
-      "TDQ720": {
-        "isHidden": true
-      },
-      "TDQ640": {
-        "isHidden": true
-      },
-      "TDQ740": {
-        "isHidden": true
-      }
-    },
-    "premium": {
-      "T0": {
-        "isHidden": true
-      },
+    "in": {
       "TSM620": {
         "isHidden": true
       },
@@ -1456,7 +1286,7 @@
         "isHidden": true
       },
       "PTDQ740": {
-        "isHidden": false
+        "isHidden": true
       }
     }
   }
