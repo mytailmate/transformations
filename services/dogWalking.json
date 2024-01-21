@@ -1,0 +1,1221 @@
+{
+  "metaTags": [
+    {
+      "name": "robots",
+      "content": "index"
+    }
+  ],
+  "pageData": {
+    "id": 1,
+    "title": "Subscription Plan",
+    "selectedService": "dogWalking",
+    "location": "Gurgaon",
+    "content": {
+      "currency": "₹",
+      "currencyCode": "INR",
+      "customRate": {
+        "1-5": [175, 175],
+        "6-20": [150, 150]
+      },
+      "maxPetsAllowed": 3,
+      "activeCampaigns": ["in"],
+      "items": [
+        {
+          "id": "T0",
+          "isHidden": false,
+          "title": "Trial walk",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Trial pack for 1 day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Single walk in a day",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            }
+          ],
+          "duration": 40,
+          "period": 1,
+          "daysInWeek": 1,
+          "mrpPer": "/walk",
+          "mrp": 100,
+          "offer": 0,
+          "addPetText": ["Add more pet for no cost"],
+          "extraPetFormula": ["0"]
+        },
+        {
+          "id": "TSC730",
+          "isHidden": false,
+          "title": "Tailmate Stride+ ",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Custom package for you",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            }
+          ],
+          "duration": 30,
+          "period": 1,
+          "daysInWeek": 7,
+          "mrpPer": "/walk",
+          "mrp": 175,
+          "offer": 175,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDC730",
+          "isHidden": false,
+          "title": "Tailmate Express+ ",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Custom package for you",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            }
+          ],
+          "duration": 30,
+          "period": 1,
+          "daysInWeek": 7,
+          "mrpPer": "/walk",
+          "mrp": 175,
+          "offer": 175,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM620",
+          "isHidden": false,
+          "title": "Tailmate Beginner (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 20,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 2900,
+          "offer": 2599,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM720",
+          "isHidden": false,
+          "title": "Tailmate Beginner+ (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 20,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 3200,
+          "offer": 2799,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM620",
+          "isHidden": false,
+          "title": "Tailmate Intermediate (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 20,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 4300,
+          "offer": 3899,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM720",
+          "isHidden": false,
+          "title": "Tailmate Intermediate+ (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 20,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 5000,
+          "offer": 4599,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM630",
+          "isHidden": false,
+          "title": "Tailmate Stride (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 30,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 3100,
+          "offer": 2699,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM730",
+          "isHidden": false,
+          "title": "Tailmate Stride+ (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 30,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 3800,
+          "offer": 3599,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM630",
+          "isHidden": false,
+          "title": "Tailmate Express (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 30,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 5500,
+          "offer": 4999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM730",
+          "isHidden": false,
+          "title": "Tailmate Express+ (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 30,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 6500,
+          "offer": 5999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM640",
+          "isHidden": false,
+          "title": "Tailmate Advance (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 3300,
+          "offer": 2999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM740",
+          "isHidden": false,
+          "title": "Tailmate Advance+ (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 4100,
+          "offer": 3899,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM640",
+          "isHidden": false,
+          "title": "Tailmate Pro (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 6000,
+          "offer": 5499,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDM740",
+          "isHidden": false,
+          "title": "Tailmate Pro+ (Monthly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 7000,
+          "offer": 6699,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSQ620",
+          "isHidden": false,
+          "title": "Tailmate Beginner (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 20,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 8700,
+          "offer": 6999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSQ720",
+          "isHidden": false,
+          "title": "Tailmate Beginner+ (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 20,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 9600,
+          "offer": 7799,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ620",
+          "isHidden": false,
+          "title": "Tailmate Intermediate (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-500",
+            "code": "FLAT500"
+          },
+          "duration": 20,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/quarter",
+          "mrp": 12900,
+          "offer": 10999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ720",
+          "isHidden": false,
+          "title": "Tailmate Intermediate+ (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-700",
+            "code": "FLAT700"
+          },
+          "duration": 20,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/quarter",
+          "mrp": 15000,
+          "offer": 12999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+
+        {
+          "id": "TSQ630",
+          "isHidden": false,
+          "title": "Tailmate Stride (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-500",
+            "code": "FLAT500"
+          },
+          "duration": 30,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 9300,
+          "offer": 7499,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSQ730",
+          "isHidden": false,
+          "title": "Tailmate Stride+ (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 30,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 11400,
+          "offer": 10199,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ630",
+          "isHidden": false,
+          "title": "Tailmate Express (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 30,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 16500,
+          "offer": 13799,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ730",
+          "isHidden": false,
+          "title": "Tailmate Express+ (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "30 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-500",
+            "code": "FLAT500"
+          },
+          "duration": 30,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 19500,
+          "offer": 16999,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSQ640",
+          "isHidden": false,
+          "title": "Tailmate Advance (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 40,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/quarter",
+          "mrp": 9900,
+          "offer": 7899,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSQ740",
+          "isHidden": false,
+          "title": "Tailmate Advance+ (Quarterly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single walk in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 40,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/quarter",
+          "mrp": 12300,
+          "offer": 11199,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ640",
+          "isHidden": false,
+          "title": "Tailmate Pro (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 40,
+          "period": 90,
+          "daysInWeek": 6,
+          "mrpPer": "/quarter",
+          "mrp": 18000,
+          "offer": 15299,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TDQ740",
+          "isHidden": false,
+          "title": "Tailmate Pro+ (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-400",
+            "code": "FLAT400"
+          },
+          "duration": 40,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/quarter",
+          "mrp": 21000,
+          "offer": 19199,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "PTDQ740",
+          "isHidden": true,
+          "title": "Premium Tailmate Pro+ (Quarterly)",
+          "slotPerDay": 2,
+          "description": [
+            {
+              "label": "Two walks in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute morning walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "20 minute evening walk",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-1000",
+            "code": "FLAT1000"
+          },
+          "duration": 40,
+          "period": 90,
+          "daysInWeek": 7,
+          "mrpPer": "/quarter",
+          "mrp": 22000,
+          "offer": 21000,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        }
+      ]
+    }
+  }
+}
