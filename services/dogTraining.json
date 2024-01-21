@@ -1,0 +1,148 @@
+{
+  "metaTags": [
+    {
+      "name": "robots",
+      "content": "index"
+    }
+  ],
+  "pageData": {
+    "id": 1,
+    "title": "Subscription Plan",
+    "selectedService": "dogTraining",
+    "location": "Gurgaon",
+    "content": {
+      "currency": "₹",
+      "currencyCode": "INR",
+      "customRate": {
+        "1-5": [175, 175],
+        "6-20": [150, 150]
+      },
+      "maxPetsAllowed": 3,
+      "activeCampaigns": ["in"],
+      "items": [
+        {
+          "id": "DT0",
+          "isHidden": false,
+          "title": "Trial Session",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Trial pack for 1 day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Single session in a day",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute session",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            }
+          ],
+          "duration": 40,
+          "period": 1,
+          "daysInWeek": 1,
+          "mrpPer": "/session",
+          "mrp": 100,
+          "offer": 0,
+          "addPetText": ["Add more pet for no cost"],
+          "extraPetFormula": ["0"]
+        },
+        {
+          "id": "TSM640",
+          "isHidden": false,
+          "title": "Tailmate Beginner (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single session in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute session",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "6 days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-300",
+            "code": "FLAT300"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 6,
+          "mrpPer": "/month",
+          "mrp": 2900,
+          "offer": 2599,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        },
+        {
+          "id": "TSM740",
+          "isHidden": false,
+          "title": "Tailmate Beginner+ (Monthly)",
+          "slotPerDay": 1,
+          "description": [
+            {
+              "label": "Single session in a day",
+              "icon": "StarOutlineIcon",
+              "type": "unique"
+            },
+            {
+              "label": "40 minute session",
+              "icon": "QueryBuilderIcon",
+              "type": "unique"
+            },
+            {
+              "label": "All days in a week",
+              "icon": "CalendarMonthIcon",
+              "type": "unique"
+            },
+            {
+              "label": "Tailcare specialist over whatsapp",
+              "icon": "WhatsAppIcon",
+              "type": "unique"
+            }
+          ],
+          "coupon": {
+            "formula": "${a}-200",
+            "code": "FLAT200"
+          },
+          "duration": 40,
+          "period": 30,
+          "daysInWeek": 7,
+          "mrpPer": "/month",
+          "mrp": 3200,
+          "offer": 2799,
+          "addPetText": [
+            "Add second pet for 30% discount",
+            "Add third pet for 50% discount"
+          ],
+          "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
+        }
+      ]
+    }
+  }
+}
