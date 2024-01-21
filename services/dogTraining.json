@@ -21,7 +21,7 @@
       "activeCampaigns": ["in"],
       "items": [
         {
-          "id": "DT0",
+          "id": "DTT0",
           "isHidden": false,
           "title": "Trial Session",
           "slotPerDay": 1,
@@ -57,7 +57,7 @@
           "extraPetFormula": ["0"]
         },
         {
-          "id": "TSM640",
+          "id": "DTTSM640",
           "isHidden": false,
           "title": "Tailmate Beginner (Monthly)",
           "slotPerDay": 1,
@@ -100,7 +100,7 @@
           "extraPetFormula": ["${a} - 0.3 * ${a}", "${a} - 0.5 * ${a}"]
         },
         {
-          "id": "TSM740",
+          "id": "DTTSM740",
           "isHidden": false,
           "title": "Tailmate Beginner+ (Monthly)",
           "slotPerDay": 1,
