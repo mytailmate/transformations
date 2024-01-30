@@ -5,8 +5,8 @@
   "currency": "₹",
   "currencyCode": "INR",
   "customRate": {
-    "1-5": [175, 175],
-    "6-20": [150, 150]
+    "1-5": [199, 199],
+    "6-20": [175, 175]
   },
   "maxPetsAllowed": 3,
   "activeCampaigns": ["in"],
