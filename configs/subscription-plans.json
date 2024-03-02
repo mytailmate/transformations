@@ -1209,6 +1209,9 @@
   ],
   "campaign": {
     "in": {
+      "T0": {
+        "isHidden": true
+      },
       "TSM620": {
         "isHidden": true
       },
