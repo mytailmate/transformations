@@ -226,12 +226,14 @@
       "MTMN0",
       "MTMN1",
       "MTMN2",
-      "MTMGZ"
+      "MTMGZ",
+      "MTM"
     ],
     "MTMGGN": ["MTM1", "MTM2", "MTM3", "MTM4", "MTM5", "MTM6", "MTM7"],
     "MTMD": ["MTMD0", "MTMD1", "MTMD2", "MTMD3"],
     "MTMF": ["MTMF"],
     "MTMN": ["MTMN0", "MTMN1", "MTMN2"],
-    "MTMGZ": ["MTMGZ"]
+    "MTMGZ": ["MTMGZ"],
+    "MTM": ["MTM"]
   }
 }
