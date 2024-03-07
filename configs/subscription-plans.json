@@ -675,7 +675,7 @@
       "duration": 20,
       "period": 90,
       "daysInWeek": 6,
-      "mrpPer": "/month",
+      "mrpPer": "/quarter",
       "mrp": 8700,
       "offer": 6999,
       "addPetText": [
@@ -848,7 +848,7 @@
       "duration": 30,
       "period": 90,
       "daysInWeek": 6,
-      "mrpPer": "/month",
+      "mrpPer": "/quarter",
       "mrp": 9300,
       "offer": 7499,
       "addPetText": [
@@ -891,7 +891,7 @@
       "duration": 30,
       "period": 90,
       "daysInWeek": 7,
-      "mrpPer": "/month",
+      "mrpPer": "/quarter",
       "mrp": 11400,
       "offer": 10199,
       "addPetText": [
@@ -934,7 +934,7 @@
       "duration": 30,
       "period": 90,
       "daysInWeek": 6,
-      "mrpPer": "/month",
+      "mrpPer": "/quarter",
       "mrp": 16500,
       "offer": 13799,
       "addPetText": [
@@ -977,7 +977,7 @@
       "duration": 30,
       "period": 90,
       "daysInWeek": 7,
-      "mrpPer": "/month",
+      "mrpPer": "/quarter",
       "mrp": 19500,
       "offer": 16999,
       "addPetText": [
